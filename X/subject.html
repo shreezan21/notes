@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
+    <title>E-Notes</title>
+    <link rel="icon" href="#"/>
+    <link rel="stylesheet" href="../templates/style.css" />
+    
+  </head>
+  <body>
+    
+  <div class="container-header">
+    <header>
+      <div class="logo">
+        <a href="#home">E-Notes</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="../main/index.html" onclick="select()">HOME</a></li>
+          <li><a href="#" onclick="select()">ABOUT</a></li>
+          <li><a href="../main/notes.html" onclick="select()">NOTES</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+  <section id="grade" class="grade">
+    <div class="choose-grade">
+      <h2>Choose your subject</h2>
+    </div>
+ 
+    <div class="select">
+        <a href="../X/subject.html" style="text-decoration: none;color:black;"> <div class="select">
+            English
+            </div></a>
+            <br>
+            <a href="../X/subject.html" style="text-decoration: none;color:black;"> <div class="select">
+              Nepali
+              </div></a>
+            <br>
+            <a href="../X/subject.html" style="text-decoration: none;color:black;"> <div class="select">
+              Maths
+              </div></a>
+            
+           </section>
+  </body>
+  <script src="../javascripts/script.js"></script>
+  </html>
